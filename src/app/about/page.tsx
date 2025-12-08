@@ -5,10 +5,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Container, Box, Grid, Typography, Paper, Fade } from "@mui/material";
 import { styled, keyframes } from "@mui/material/styles";
 import SkillsShowcase from "../../components/SkillsShowcase"; // adjust if your path differs
-// If you have a Typed or Lottie component, you can import them likewise:
-// import Typed from "../../components/Typed";
-// import Lottie from "lottie-react";
-// import Coder from "/lottie/coder.json";
+
 
 const float = keyframes`
   0%, 100% { transform: translateY(0px); }
